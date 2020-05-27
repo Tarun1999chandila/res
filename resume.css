@@ -1,0 +1,86 @@
+body {
+  background: rgb(204, 204, 204);
+}
+#ro {
+  font-family: "Lato", helvetica, arial, sans-serif;
+  font-size: 17px;
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+page[size="A4"] {
+  width: 25cm;
+  height: 44cm;
+}
+
+@media print {
+  body,
+  page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+#one {
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+#name h1 {
+  font-weight: 700;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  margin-bottom: -6px;
+  margin-left: 70px;
+}
+#name span {
+  margin-left: 70px;
+}
+#oo {
+  background-image: url("jaune-iran.jpg");
+}
+#headshot {
+  width: 12.5%;
+  float: left;
+  margin-right: 40px;
+}
+
+#headshot img {
+  width: 100%;
+  height: auto;
+}
+
+#name {
+  float: left;
+}
+#ot {
+  width: 70%;
+  height: 0.2cm;
+  color: black;
+  background-color: black;
+}
+
+#p {
+  font-size: 0.6cm;
+  margin-top: 20px;
+}
+#name {
+  border-top-right-radius: 10px;
+  background-image: url("jaune-iran.jpg");
+
+  height: 4cm;
+  width: 20.8cm;
+}
+#t {
+  margin-top: 20px;
+}
+#ooo {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+img {
+  border-top-left-radius: 10px;
+}
